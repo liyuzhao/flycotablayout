@@ -2,6 +2,8 @@
 
 
 >fork from: [https://github.com/H07000223/FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
+>2.x migrate to androidx
+
 
 #### Step 1.
 Add it in your root build.gradle at the end of repositories:
@@ -20,8 +22,8 @@ Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.android.support:appcompat-v7:27.0.1'
-	        implementation 'com.github.liyuzhao:flycotablayout:v1.0.1'
+	        implementation 'androidx.appcompat:appcompat:1.0.0'
+	        implementation 'com.github.liyuzhao:flycotablayout:v2.0.0'
 	}
 
 ```

@@ -1,5 +1,7 @@
 package com.flyco.tablayout;
 
+import android.animation.TypeEvaluator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -10,8 +12,8 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.util.TypedValue;
@@ -28,8 +30,6 @@ import com.flyco.roundview.RoundTextView;
 import com.flyco.tablayout.listener.OnTabSelectListener;
 import com.flyco.tablayout.utils.FragmentChangeManager;
 import com.flyco.tablayout.utils.UnreadMsgUtils;
-import com.nineoldandroids.animation.TypeEvaluator;
-import com.nineoldandroids.animation.ValueAnimator;
 
 import java.util.ArrayList;
 
